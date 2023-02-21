@@ -14,7 +14,20 @@ public class bodyMassIndex {
         double height = scanner.nextDouble();
 
         double bmi = weight / (height * height);
-        System.out.println("Your BMI: " + bmi);
+        System.out.print("Your BMI: " + bmi + " ");
+        
+        if (bmi < 16.5) {
+            System.out.println("Weak");
+        }
+        else if (18.5 < bmi && bmi < 25) {
+            System.out.println("Normal");
+        }
+        else if (25 < bmi && bmi < 30) {
+            System.out.println("Overweight");
+        }
+        else {
+            System.out.println("Obese");
+        }
 
 
     
