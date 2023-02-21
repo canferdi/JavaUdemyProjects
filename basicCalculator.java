@@ -32,10 +32,13 @@ public class basicCalculator {
             case "3":
                 result = firstNum * secondNum;
                 break;
+            
+            case "4":
+            result = firstNum / secondNum;
+            break;
 
             default:
-                result = firstNum / secondNum;
-                break;
+                System.out.println("Wrong operation!");
         }
         System.out.println("Result: " + result);
 
