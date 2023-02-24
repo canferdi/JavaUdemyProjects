@@ -13,7 +13,7 @@ public class ATM {
 
         int balance = 1000;
         String actions = "1st Action : Balance learning\n"
-                + "2nd Action : Balance learning\n"
+                + "2nd Action : Withdraw\n"
                 + "3rd Action : Deposit\n"
                 + "Quit : Press q";
 
