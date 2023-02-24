@@ -19,7 +19,7 @@ public class switcher {
 
         System.out.println("First number (switched): " + firstNum);
         System.out.println("Second number (switched): " + secondNum);
-
+        scanner.close();
     }
 
 }

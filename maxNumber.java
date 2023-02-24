@@ -27,6 +27,6 @@ public class maxNumber {
         }
         
         System.out.println("Max number : " + maxNum);
-
+        scanner.close();
     }
 }

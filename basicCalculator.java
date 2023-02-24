@@ -41,6 +41,7 @@ public class basicCalculator {
                 System.out.println("Wrong operation!");
         }
         System.out.println("Result: " + result);
+        scanner.close();
 
     }
 

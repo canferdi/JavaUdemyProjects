@@ -13,7 +13,7 @@ public class fuelAmount {
 
         double result = fuelUsage * totalRoad;
         System.out.println("Total fuel cost: " + result + "$");
-
+        scanner.close();
     }
 
 }

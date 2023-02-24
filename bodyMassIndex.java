@@ -28,6 +28,7 @@ public class bodyMassIndex {
         else {
             System.out.println("Obese");
         }
+        scanner.close();
 
 
     

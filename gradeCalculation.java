@@ -71,7 +71,7 @@ public class gradeCalculation {
             
             System.out.println("FF");
             System.out.println("You failed the class...");
-
+            scanner.close();
         }
         
 
